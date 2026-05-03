@@ -1,13 +1,34 @@
 # Do It Later!
 
-Do It Later! is a a randomizer to help you reason why you should put something off. I decided to procrastinate by building this instead of studying for exams (oh, the irony).
+Do It Later! is a a randomizer to help you reason why you should put something off. I decided to procrastinate by building this instead of studying for exams (oh, the irony). Use it when you're stalling or use it when you need motivation. 
 
 # Built With
 
-HTML, CSS, and JavaScript. No frameworks or libraries.
+- Plain HTML5
+- Pure CSS3
+- Vanilla JavaScript
 
-# Experience
-Struggled with almost everything... but it made sense in the end it just took a good amount of time. This was a great refresher on the Holy Trinity because I haven't touched HTML or CSS in a while. I also found some pretty cool effects/animations to add in but I couldn't fit them design-wise so I am looking forward to use those in future projects. I think the small scope really allowed me to find what I liked and what I am good at so I know what direction I can continue working in.
+# Demo
+
+![Website Screenshot](demo.png)
+
+# Getting Started
+
+Open the URL: https://ctln-d.github.io/do-it-later/ 
+
+# Contributing
+
+## Cloning and Installation
+1. Fork this repository on GitHub.
+2. From your fork, run
+```
+git clone https://github.com/<your-username>/do-it-later  
+cd do-it-later
+```
+## Making Contributions
+- Make sure to create a new branch and name it adequately
+- Write clear commit messages
+- When pushing changes, open a pull request and describe the changes made
 
 # Credits
 
