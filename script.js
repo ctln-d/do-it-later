@@ -6,7 +6,8 @@ const excuseList = ["You're not in the perfect state of mind right now.",
     "You can deal with the consequences later.",
     "You will be older and wiser if you wait to get it done.", "Haste makes waste.",
     "Great things take time.", "The more your mind is rested the more productive it will be.",
-    "Your best ideas come with a little waiting."]
+    "Your best ideas come with a little waiting.", "You must wait for a sign from the universe.",
+    "You must eat first so you have energy."]
 
 const excuse = document.getElementById("excuse")
 const excuseBtn = document.getElementById("excuseBtn")
