@@ -1,0 +1,36 @@
+body {
+    background-color: #FEECC5;
+    color: #205A41;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+}
+h1 {
+    padding: 30px;
+    text-align: center;
+    background-image: url(yellow-tartan.png);
+    color: #205A41;
+    font-family: "Are You Serious", cursive;
+    font-size: 55px;
+    letter-spacing: 7px;
+}
+button {
+    background-color: #FFDC80;
+    color: #854e29;
+    padding: 10px 20px;
+    border-color: #371b12;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+}
+button:hover {
+    background-color: #371b12;
+    color: #FDF7DF;
+}
+
+.words {
+    background-color: #FEECC5;
+    color: #205A41;
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+}

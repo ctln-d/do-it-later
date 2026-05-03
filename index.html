@@ -4,51 +4,26 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            background-color: #f5e7c5;
-            color: #854e29;
-            font-family: "Work Sans", sans-serif;
-        }
-        h1 {
-            padding: 40px;
-            text-align: center;
-            background-color: #fae584;
-            color: #2f5740;
-            font-family: "Are You Serious", cursive;
-            font-size: 70px;
-        }
-        button {
-            background-color: white;
-            color: #854e29;
-            padding: 10px 20px;
-            border-color: #371b12;
-            border-width: 2px;
-            border-radius: 5px;
-            font-size: 16px;
-            font-family: "Work Sans", sans-serif;
-        }
-        button:hover {
-            background-color: #371b12;
-            color: white;
-        }
-    </style>
-
 </head>
 <body>
 
-<div class="header">
-    <h1>T i t l e</h1>
+<div class="header" style="margin-bottom: 30px">
+    <h1>Do It Later!</h1>
 </div>
 
-<div>
+<div class="words" style="text-align: center; margin: 60px 0;">
     <p>You work better under stress.</p>
-    <button type="button">give me a reason</button>
-    <button type="button">fine, I'll work</button>
+</div>
+
+<div style="text-align: center">
+    <button type="button" id="reasonBtn">give me a reason</button>
+    <button type="button" id="workBtn">fine, I'll work</button>
 </div>
 
 </body>
