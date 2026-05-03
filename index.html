@@ -14,12 +14,13 @@
     <script src="header.js"></script>
 
 <div class="words" style="text-align: center; margin: 60px 0;">
-    <p id="excuse">You work better under stress.</p>
+    <p id="excuse">&nbsp</p>
 </div>
 
 <div style="text-align: center">
-    <button type="button" id="excuseBtn">give me a reason</button>
-    <button type="button" onclick="window.location.href='work.html';">fine, I'll work</button>
+    <audio id="button-press" src="button-press.mp3"></audio>
+    <button class="button" id="excuseBtn" onclick="document.getElementById('button-press').play()">give me a reason</button>
+    <button class="button" onclick="document.getElementById('button-press').play(); window.location.href='work.html';">fine, I'll work</button>
 </div>
 
 </body>

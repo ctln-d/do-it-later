@@ -16,7 +16,7 @@ h1 {
     letter-spacing: 7px;
     margin-bottom: 80px;
 }
-button {
+.button {
     background-color: #FFDC80;
     color: #854e29;
     padding: 10px 20px;
@@ -25,10 +25,38 @@ button {
     border-radius: 5px;
     font-size: 16px;
     font-family: "Work Sans", sans-serif;
+    position: relative;
+    overflow: hidden;
 }
-button:hover {
+.button:hover {
     background-color: #371b12;
     color: #FDF7DF;
+}
+
+.button::after {
+    content:"";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 40%;
+    height: 200%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.7),
+        transparent
+    );
+    transform: rotate(25deg);
+    opacity: 0;
+}
+.button.run-glint::after {
+    animation: glint 1.2s ease-in-out;
+}
+
+@keyframes glint {
+    0% { left: -60%; opacity: 0; }
+    30% { opacity: 1; }
+    100% { left: 120%; opacity: 0; }
 }
 
 .words {
