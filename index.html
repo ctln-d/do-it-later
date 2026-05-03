@@ -2,28 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Do It Later!</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>        <!-- defer will make script wait until html is loaded -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
-
-<div class="header" style="margin-bottom: 30px">
-    <h1>Do It Later!</h1>
-</div>
+    <script src="header.js"></script>
 
 <div class="words" style="text-align: center; margin: 60px 0;">
-    <p>You work better under stress.</p>
+    <p id="excuse">You work better under stress.</p>
 </div>
 
 <div style="text-align: center">
-    <button type="button" id="reasonBtn">give me a reason</button>
-    <button type="button" id="workBtn">fine, I'll work</button>
+    <button type="button" id="excuseBtn">give me a reason</button>
+    <button type="button" onclick="window.location.href='work.html';">fine, I'll work</button>
 </div>
 
 </body>

@@ -3,6 +3,8 @@ body {
     color: #205A41;
     font-family: "Work Sans", sans-serif;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
     padding: 30px;
@@ -12,6 +14,7 @@ h1 {
     font-family: "Are You Serious", cursive;
     font-size: 55px;
     letter-spacing: 7px;
+    margin-bottom: 80px;
 }
 button {
     background-color: #FFDC80;
@@ -34,3 +37,8 @@ button:hover {
     font-family: "Work Sans", sans-serif;
     font-size: 40px;
 }
+
+.bdy {
+    margin: 40px;
+}
+
