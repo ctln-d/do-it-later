@@ -1,6 +1,6 @@
 # Do It Later!
 
-Do It Later! is a a randomizer to help you reason why you should put something off. I decided to procrastinate by building this instead of studying for exams (oh, the irony). Use it when you're stalling or use it when you need motivation. 
+Do It Later! is a randomizer to help you reason why you should put something off. I decided to procrastinate by building this instead of studying for exams (oh, the irony). Use it when you're stalling or use it when you need motivation. 
 
 # Built With
 
